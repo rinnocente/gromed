@@ -1,9 +1,9 @@
 # gromed
 grom[macs] + [plu]med
 
-GROMACS is a well known molecular dynamics package
+GROMACS is a well known molecular dynamics package, more info at [gromacs.org](http://www.gromacs.org/)
 
-PLUMED is a free energy calculator
+PLUMED is a free energy calculator, more info at [plumed.org](www.plumed.org)
 
-This project contains a Dockerfile for the building
-of a common docker container for them.
+This project contains a Dockerfile for building
+a common docker container for them.
