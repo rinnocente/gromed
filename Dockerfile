@@ -4,7 +4,7 @@
 # For many reasons we need to fix the ubuntu release:
 FROM ubuntu:17.04
 #
-MAINTAINER roberto innocente <inno@sissa.it>
+MAINTAINER roberto innocente <inno@sissa.it>, giovanni bussi <bussi@sissa.it>
 #
 #
 ARG DEBIAN_FRONTEND=noninteractive
