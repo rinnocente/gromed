@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Author: R.Innocente inno@sissa.it
+# Author: R.Innocente inno at sissa.it
 #
 # List of Intel cpu SIMD features in order of performance
 #
