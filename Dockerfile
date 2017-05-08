@@ -96,7 +96,11 @@ RUN wget http://ftp.gromacs.org/pub/gromacs/gromacs-2016.3.tar.gz \
 RUN    	mkdir downloads \
 	&& mv gromacs-2016.3.tar.gz plumed-2.3.1.tgz downloads/
 #
-COPY	tune-gromacs.sh /home/gromed/gromacs-2016.3/
+# get from github and copy tuning script inside gromacs directory
+#
+RUN	wget 	https://raw.githubusercontent.com/rinnocente/gromed/edits/tune-gromacs.sh \
+	&& mv tune-gromacs.sh gromacs-2016.3/
+
 #
 # change owner to gromed:gromed
 #
