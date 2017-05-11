@@ -29,7 +29,7 @@ RUN sed -i 's#^StrictModes.*#StrictModes no#' /etc/ssh/sshd_config \
 # download and compile sources.
 #
 ENV     GR_HD="/home/gromed" \
-   	GR_VER="-2016-3" \
+   	GR_VER="-2016.3" \
    	PL_VER="-2.3.1"  
 #
 WORKDIR "$GR_HD"
