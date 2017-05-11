@@ -39,7 +39,7 @@ WORKDIR "$GR_HD"
 RUN     GR_CORES=`cat /proc/cpuinfo |grep 'cpu cores'|uniq|sed -e 's/.*://'` \
 	&& wget http://people.sissa.it/~inno/plumed${PL_VER}.tgz  \
 	&& tar xfz plumed${PL_VER}.tgz \
-	&& ( cd plumed$PL_VER} ; \
+	&& ( cd plumed${PL_VER} ; \
 	       ./configure CXXFLAGS=-O3; \
 	       make -j $((2*GR_CORES)) ;\
                make install ) \
