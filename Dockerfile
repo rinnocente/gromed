@@ -6,7 +6,8 @@
 # torture 
 FROM 	rinnocente/ubuntu-17.04-homebrewed
 #
-LABEL 	maintainer="roberto innocente <inno@sissa.it>"
+LABEL 	\
+	maintainer="roberto innocente <inno@sissa.it>" \
 	version="1.0"
 #
 #
