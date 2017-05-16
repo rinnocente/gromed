@@ -44,7 +44,7 @@ WORKDIR "$GR_HD"
 # Second : setup GROMACS
 #
 RUN     \
-	GR_CORES=$(grep 'cpu cores' </proc/cpuinfo |uniq|sed -e 's/.*://') \
+	GR_CORES=$(grep 'cpu cores' /proc/cpuinfo |uniq|sed -e 's/.*://') \
 	&& wget http://people.sissa.it/~inno/plumed"${PL_VER}".tgz  \
 	&& tar xfz plumed"${PL_VER}".tgz \
 	&& ( cd plumed"${PL_VER}" || exit ; \
