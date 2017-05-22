@@ -45,7 +45,7 @@ this script uses sudo to install gromacs.
 ```
 .
 |-- downloads
-|-- gromacs-5.1.4
+|-- gromacs-2016.3
 |   |-- admin
 |   |-- build-SSE2
 |   |-- cmake
